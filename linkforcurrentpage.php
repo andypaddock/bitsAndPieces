@@ -3,8 +3,7 @@
 <div class="toggle-list">
             <div class="sticky">
 
-                <?php $actual_link = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-                 ?>
+               <?php $actual_link = get_permalink(); ?>
                 <?php if( have_rows('services_toggle', '118') ):
                     while( have_rows('services_toggle', '118') ): the_row();
                     ?>
