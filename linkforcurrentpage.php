@@ -1,4 +1,6 @@
- <div class="toggle-list">
+<!-- Add a class to something if its the same as the current page, outside of standard WordPress 'currentpage' system  -->
+
+<div class="toggle-list">
             <div class="sticky">
 
                 <?php $actual_link = 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
